@@ -1,26 +1,23 @@
 # Site settings
 
-title: Paradone
-tagline: "Peer-to-peer assisted media diffusion in the browser with WebRTC and MediaSource"
+title: SMAO LAB
+tagline: "Electro music and more"
 
-repository_url: "https://github.com/Paradone/paradone"
-master_raw: "https://github.com/Paradone/paradone/tree/master"
-wiki_url: "https://github.com/Paradone/paradone/wiki"
+repository_url: "https://github.com/Smaolab/smaolab"
+master_raw: "https://github.com/Smaolab/smaolab/tree/master"
+wiki_url: "https://github.com/Smaolab/smaolab/wiki"
 
-email: your-email@domain.com
+email: egnouf@gmail.com
 
 description: > # this means to ignore newlines until "baseurl:"
-  Paradone is an Open-Source, peer-to-peer powered overlay network for media
-  diffusion in the browser. Its aim is to reduce bandwidth cost of media file
-  diffusion for the server and ISPs while providing a better service quality to
-  the end user.
+  SMAO LAB.....
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://paradone.github.io" # the base hostname & protocol for your site
+url: "https://smaolab.github.io" # the base hostname & protocol for your site
 
 
-twitter_username: ParadoneProject
-github_username:  Paradone
+twitter_username: stephaneribas
+github_username:  rstephane
 
 # Build settings
 markdown: kramdown
