@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Pardone
+title: About SMAO LAB 
 ---
 
-## Who is Paradone?
+## Who is SMAO?
