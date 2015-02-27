@@ -35,22 +35,21 @@
 		</div>
 		<div id='content'>
 
-			<div id='nav'>
+			<div id='posts'>
 				<ul>
-					{% for post in site.categories.blog %}
+					{% for menu in site.categories.blog %}
 						<li class='post'>
-							{% if post.image %}
-								<a href='{{post.url}}'><img class='post-image' src="{{post.image}}" /></a>
+							{% if menu.image %}
+								<a href='{{menu.url}}'><img class='post-image' src="{{menu.image}}" /></a>
 							{% endif %}
 							<div class="postcontent">
-					<a href='{{post.url}}'><h1 class='post-title'>{{post.title}}</h1></a>
-								<div class='post-date'>{{ post.date | date: "%B %d, %Y"}}</div>
+					<a href='{{menu.url}}'><h1 class='post-title'>{{menu.title}}</h1></a>
+								<div class='post-date'>{{ menu.date | date: "%B %d, %Y"}}</div>
 
-								<div class='post-content'>{{post.summary}}</div>
+								<div class='post-content'>{{menu.summary}}</div>
 							</div>
 						</li>
 					{% endfor %}
-					{% include nav.html %}
 				</ul>
 			</div>
 
