@@ -2,7 +2,7 @@ permalink: /:categories/:title.html
 url: "http://smaolab.github.io/"
 full_name: "SMAO LAB"
 first_name: "SMAO"
-last_name: ""
+last_name: "LAB"
 blog_title: "SMAO LAB"
 author_img_name_path: "/images/users/user.jpg"
 disqus_shortname: "smaolab"
