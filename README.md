@@ -1,15 +1,8 @@
-# Jekyll docs site
+# SMAOLAB website
 
-This directory contains the code for the Jekyll docs site, [jekyllrb.com](http://jekyllrb.com/).
+This directory contains the code for the SMAOLAB website, [smaolab.fr](http://smaolab.fr/).
 
 ## Contributing
 
-For information about contributing, see the [Contributing page](http://jekyllrb.com/docs/contributing/).
+For information about contributing, send me a mail to egnouf@gmail.com.
 
-## Running locally
-
-You can preview your contributions before opening a pull request by running from within the directory:
-1. `bundle install`
-2. `bundle exec rake site:preview`
-
-It's just a jekyll site, afterall! :wink:
