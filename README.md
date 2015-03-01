@@ -1,15 +1,9 @@
-# Jekyll docs site
+# Website Readme
 
-This directory contains the code for the Jekyll docs site, [jekyllrb.com](http://jekyllrb.com/).
+This directory contains the code for the SMAOLAB website dedicated to the differnet LXR Firmawre (unoffials ones) and M4L PLUG-ins.
 
-## Contributing
+## Contributing & help
 
-For information about contributing, see the [Contributing page](http://jekyllrb.com/docs/contributing/).
+For information about contributing and/or asking questions, drop a mail to egnouf@gmail.com
 
-## Running locally
-
-You can preview your contributions before opening a pull request by running from within the directory:
-1. `bundle install`
-2. `bundle exec rake site:preview`
-
-It's just a jekyll site, afterall! :wink:
+## Enjoy
