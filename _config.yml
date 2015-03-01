@@ -1,0 +1,12 @@
+markdown: kramdown
+highlighter: pygments
+relative_permalinks: false
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
+
+repository: https://github.com/smaolab
+help_url: https://github.com/smaolab
+
+collections:
+  docs:
+    output: true
