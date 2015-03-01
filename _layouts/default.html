@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie6 ie" lang="fr"><![endif]-->
+<!--[if IE 7]>   <html class="ie7 ie" lang="fr"><![endif]-->
+<!--[if IE 8]>   <html class="ie8 ie" lang="fr"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-ie" lang="fr"><!--<![endif]-->
+  <head>
+
+    <title>{{ page.title }}</title>
+
+    <link href='//fonts.googleapis.com/css?family=Terminal+Dosis:400,500,800,700,600,300,200:latin' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=960,  user-scalable=yes, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+    <meta name="description" content="Ce portfolio présente les travaux de Pierre Romera (Pirhoo), petit manchot développeur Web, expert en Data-Journalism." />
+    <meta name="author" content="Pierre Romera (Pirhoo)">
+    <meta name="keywords" content="pirhoo, pierre romera, romera, pierre, developper développeur, dévelopeur developer, web, html, html5, javascript, canvas, php, ruby, data, data-journalsim, datajournalism, datajournalisme, ddj, api" />
+    <link rel="canonical" href="{{site.url}}" />
+
+    <meta property="og:title" content="Pierre Romera (Pirhoo)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:image" content="{{site.url}}/img/penguin_nb.jpg" />
+    <link rel="image_src" type="image/jpeg" href="{{site.url}}/img/penguin_nb.jpg" />
+    <meta property="og:site_name" content="Pierre Romera (Pirhoo)" />
+    <meta property="fb:admins" content="686299757" />
+
+
+    <!-- build:css({app,.tmp}) ./css/main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    {% include menu.html %}
+
+    {{ content }}
+
+    {% include scripts.html %}
+
+
+  </body>
+</html>

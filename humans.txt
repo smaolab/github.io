@@ -1,0 +1,10 @@
+# humanstxt.org/
+
+# TEAM
+
+    Pierre Romera -- CTO @jplusplus_ -- @pirhoo
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr

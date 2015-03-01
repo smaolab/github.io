@@ -1,0 +1,24 @@
+
+<section class="cascade screen" id="works">
+    <h1>
+        Pierre Romera
+        <img src="./img/arrow-right.png" class="arrow" alt="" />
+        Mes travaux
+    </h1>
+    <ul>
+        {% for work in site.data.works %}
+
+            <li class="vignette {{work.type}}" data-type="{{work.type}}">
+                <a href="{{work.url}}" class="preview open-window">
+                    <img src="{{work.thumbnail}}" class="grayscale grayscale-fade" width="150" alt="">
+                </a>
+                <a href="{{work.permalink}}" class="open-window title">
+                    <span class="icon {{work.type}}"></span>
+                    {{work.title}}
+                </a>
+            </li>
+
+        {% endfor %}
+    </ul>
+    <br class="breaker" />
+</section>

@@ -1,0 +1,189 @@
+@import "compass/reset";
+@import "base";
+
+@font-face {
+  font-family: 'IcoMoon';
+  src: url('../fonts/icomoon.eot');
+  src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.svg#IcoMoon') format('svg'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add the following classes to your stylesheet if you want to use data attributes for inserting your icons */
+.iconb:before, .icona:after {
+  font-family: 'IcoMoon';
+  content: attr(data-icon);
+}
+
+/* Add the following CSS properties to your stylesheet if you want to have a class per icon */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'IcoMoon';
+  font-style: normal;
+}
+.icon-twitter:before {
+  content: "\0021";
+}
+.icon-facebook:before {
+  content: "\0022";
+}
+.icon-phone:before {
+  content: "\0023";
+}
+.icon-github:before {
+  content: "\0024";
+}
+.icon-google-plus:before {
+  content: "\0025";
+}
+.icon-tumblr:before {
+  content: "\0026";
+}
+.icon-feed:before {
+  content: "\0027";
+}
+.icon-skype:before {
+  content: "\0028";
+}
+.icon-html5:before {
+  content: "\0029";
+}
+.icon-mail:before {
+  content: "\002a";
+}
+
+
+body {
+    font: 13px arial,sans-serif;
+    color: #000000;
+    background:#1D2528;
+    background: #fff;
+}
+
+a {
+    color:$base-link-color;
+    text-decoration: none;
+    text-shadow:1px 1px 0 white;
+}
+
+::selection {
+  background: #388AC4;
+	color:white;
+}
+
+::-moz-selection {
+  background: #388AC4;
+	color:white;
+}
+
+.fhidden { display: none !important; }
+.hidden { display: none ; }
+
+.breaker {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.fleft { float:left; }
+.fright { float:right; }
+
+h1 {
+    font-size:30px;
+    line-height:28px;
+	font-family:'Terminal Dosis', arial,sans-serif;
+}
+
+h2 {
+    font-size:36px;
+    line-height:32px;
+	margin-bottom:30px;
+	font-family:'Terminal Dosis',  arial,sans-serif;
+}
+
+h3 {
+    font-size:20px;
+    line-height:16px;
+	font-family:'Terminal Dosis', arial,sans-serif;
+	letter-spacing:0.1em;
+	word-spacing:0.1em
+}
+
+h4 {
+    font-size:16px;
+    line-height:14px;
+}
+
+h5 {
+    font-size:14px;
+    line-height:12px;
+}
+
+.icomoon {
+  font-family: 'IcoMoon';
+}
+
+.icon { position:relative; }
+.icon:after {
+
+	content:" ";
+	width:24px;
+	height:24px;
+
+	position:absolute;
+	top:0;
+	right:0;
+
+	background:url("../img/icons.png") no-repeat 0 0;
+	display:none;
+}
+
+
+.icon.site:after {
+	background-position:-11*24px -1*24px;
+	display:block;
+}
+
+.icon.ddj:after {
+	background-position:-6*24px -4*24px;
+	display:block;
+}
+
+.icon.article:after {
+	background-position:0*24px -3*24px;
+	display:block;
+}
+
+.icon.speach:after {
+	background-position:-10*24px -5*24px;
+	display:block;
+}
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
