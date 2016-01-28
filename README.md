@@ -1,6 +1,6 @@
 # Website Readme
 
-This directory contains the code for the SMAOLAB website dedicated to the differnet LXR Firmawre (unoffials ones) and M4L PLUG-ins.
+This directory contains the code for the SMAOLAB website dedicated to the different LXR Firmware (unofficial ones) and M4L PLUG-ins.
 
 ## Contributing & help
 
